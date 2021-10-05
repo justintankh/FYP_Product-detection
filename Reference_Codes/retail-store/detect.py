@@ -115,18 +115,18 @@ def detect(save_img=False):
                             f.write(('%g ' * 5 + '\n') %
                                     (cls, *xywh))  # label format
                     if save_img or view_img:  # Add bbox to image
-                        # label = '%s %.2f' % (names[int(cls)], conf)
                         boxColor = [0, 255, 0]
-                        label = ""
-                        ######### Comment out here to not show conf ##########
-                        label = '%s %.2f' % ('conf:', conf)
-                        if (conf < 0.4):
-                            boxColor = [0, 0, 255]
-                        elif (conf < 0.5):
-                            boxColor = [0, 166, 255]
-                        ######################################################
-                        # plot_one_box(xyxy, im0, label=label,
-                        #              color=colors[int(cls)], line_thickness=3)
+                        label = ''
+                        ## comment out here to
+                        # label = '%s %.2f' % (names[int(cls)], conf)
+                        # label = '%s %.2f' % ('conf:', conf)
+                        # if (conf < 0.4):
+                        #     boxColor = [0, 0, 255]
+                        # elif (conf < 0.5):
+                        #     boxColor = [0, 166, 255]
+                        ## comment out here
+                        plot_one_box(xyxy, im0, label=label,
+                                     color=colors[int(cls)], line_thickness=3)
                         plot_one_box(xyxy, im0, label=label,
                                      color=boxColor, line_thickness=3)
 

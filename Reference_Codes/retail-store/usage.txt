@@ -1,5 +1,12 @@
-python detect.py --weights weights/shelf_weights.pt --img 416 --conf 0.4 --device 0,cpu
+1. cmd at root folder of project
+2. conda activate yolov5
+3. follow usage commands
 
-python detect.py --weights weights/shelf_weights.pt --img 416 --conf 0.4 --view-img
+#Base usage command
+python detect.py --weights weights/last_yolov5s_results.pt --img 416 --conf 0.4 
 
-python detect.py --weights weights/grocery_weights.pt --img 416 --conf 0.4 --view-img
+#With GPU ## IF CUDA TOOL-KIT INSTALLED and GPU-Enabled tensorflow # '--device 0' # for first GPU
+--device 0,1,2,3
+
+#With display
+--view-img
