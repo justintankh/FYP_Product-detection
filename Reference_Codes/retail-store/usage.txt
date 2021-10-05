@@ -1,0 +1,5 @@
+python detect.py --weights weights/shelf_weights.pt --img 416 --conf 0.4 --device 0,cpu
+
+python detect.py --weights weights/shelf_weights.pt --img 416 --conf 0.4 --view-img
+
+python detect.py --weights weights/grocery_weights.pt --img 416 --conf 0.4 --view-img
