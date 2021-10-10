@@ -1,3 +1,10 @@
+# Performance of Pre-trained Weights
+
+
+| Grocery_detection weights vs Retail-store weights |
+|-------------------------|
+| <img src="hand1.png"> |
+
 # Performance of Real-ESRGON
 
 | Zoomed cropped image vs Enhanced image 4x |
