@@ -1,3 +1,5 @@
+# Performance of Real-ESRGON
+
 | Zoomed cropped image vs Enhanced image 4x |
 |-------------------------|
 | <img src="X4RealEsrgon (1).png"> |
