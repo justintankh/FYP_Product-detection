@@ -8,3 +8,4 @@ Credits to
 1. YOLOv5
 2. [Pre-trained Retail Store Item weights](https://github.com/shayanalibhatti/Retail-Store-Item-Detection-using-YOLOv5)
 3. [Pre-trained Grocery detection weights](https://github.com/shreyasvedpathak/grocery-detection)
+4. [xinntao on Github for Real-ESRGAN resolution enhancer](https://github.com/xinntao/Real-ESRGAN)
