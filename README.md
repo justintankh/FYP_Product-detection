@@ -5,9 +5,7 @@ Design and Development of a Smart Supermarket System
 In this project, students will look into developing a system or software application that will improve the work process and the customer experience in a supermarket. For example, an application can be created to recognize products on the supermarket shelf for planogram compliance by product classification, computer vision and deep learning approaches. Additionally, product nutrition identification can be implemented for the nutritional tracking of consumers.
 
 # Architecture
-
-|-------------------------|
-| <img src="./Architecture.png"> |
+<img src="./Architecture.png">
 
 Credits to 
 1. [YOLOv5](https://github.com/ultralytics/yolov5)
