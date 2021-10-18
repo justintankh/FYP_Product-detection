@@ -1,0 +1,2 @@
+https://github.com/NanoNets/ocr-with-tesseract/blob/master/tesseract-tutorial.ipynb
+https://nanonets.com/blog/ocr-with-tesseract/#tesseractocr

@@ -1,0 +1,5 @@
+# Triple filter concat
+python detect_concat_config.py
+
+# Obtaining output for 4 best configs
+python detect.py
