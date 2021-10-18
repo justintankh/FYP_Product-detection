@@ -7,6 +7,30 @@ In this project, students will look into developing a system or software applica
 # Architecture
 <img src="./Architecture.png">
 
+# Proof of Concepts:
+
+## Performance of Pre-trained Weights
+
+| Grocery_detection weights vs Retail-store weights |
+|-------------------------|
+| <img src="./Comparison_Study/weights/hand1.png"> |
+
+## Performance of Real-ESRGAN
+
+| Zoomed cropped image vs Enhanced image 4x |
+|-------------------------|
+| <img src="./Comparison_Study/ESRGAN/X4RealEsrgon (1).png"> |
+<!-- | <img src="./ESRGAN/X4RealEsrgon (2).png"> |
+| <img src="./ESRGAN/X4RealEsrgon (3).png"> |
+| <img src="./ESRGAN/X4RealEsrgon (4).png"> |
+| <img src="./ESRGAN/X4RealEsrgon (5).png"> | -->
+
+## Performance of OCR
+
+| OCR without ESRGAN | OCR with ESRGAN |
+|-------------------------|-------------------------|
+| <img src="./Comparison_Study/OCR/noESRGAN.png"> | <img src="./Comparison_Study/OCR/yesESRGAN.png"> |
+
 Credits to 
 1. [YOLOv5](https://github.com/ultralytics/yolov5)
 2. [Pre-trained Retail Store Item weights](https://github.com/shayanalibhatti/Retail-Store-Item-Detection-using-YOLOv5)
