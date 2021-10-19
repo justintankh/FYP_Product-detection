@@ -11,9 +11,10 @@ In this project, students will look into developing a system or software applica
 
 ## Performance of Pre-trained Weights
 
-| Grocery_detection weights vs Retail-store weights |
-|-------------------------|
-| <img src="./Comparison_Study/weights/hand1.png"> |
+| Grocery_detection weights | Retail-store weights |
+|-------------------------|-------------------------|
+| <img src="./Comparison_Study/weights/125619GroceryItems.jpg"> | <img src="./Comparison_Study/weights/125619RetailStoreItems.jpg"> |
+| <img src="./Comparison_Study/weights/hand1groceryweights.png"> | <img src="./Comparison_Study/weights/hand1retailweights.jpg"> |
 
 ## Performance of Real-ESRGAN
 
