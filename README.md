@@ -14,7 +14,7 @@ In this project, students will look into developing a system or software applica
 | Grocery_detection weights | Retail-store weights |
 |-------------------------|-------------------------|
 | <img src="./Comparison_Study/weights/125619GroceryItems.jpg"> | <img src="./Comparison_Study/weights/125619RetailStoreItems.jpg"> |
-| <img src="./Comparison_Study/weights/hand1groceryweights.png"> | <img src="./Comparison_Study/weights/hand1retailweights.jpg"> |
+| <img src="./Comparison_Study/weights/hand1groceryweights.png"> | <img src="./Comparison_Study/weights/hand1retailweights.png"> |
 
 ## Performance of Real-ESRGAN
 
