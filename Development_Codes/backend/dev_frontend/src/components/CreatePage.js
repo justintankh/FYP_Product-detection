@@ -30,13 +30,15 @@ export default class CreatePage extends Component {
 		};
 		fetch("/api/signup", requestOptions)
 			.then((response) => {
-				if (response.ok) {
-					// this.history.push(`basket/${this.state.username}`);
-					console.log("response ok");
-					location.href = `basket/${this.state.username}`;
-				} else {
-					this.setState({ error: "Room not found." });
-				}
+				response.json().then((data) => {
+					if (response.ok) {
+						console.log("response ok");
+						location.href = `basket/${data.code}`;
+					} else {
+						console.log("response !ok");
+						this.setState({ error: data["Bad request"] });
+					}
+				});
 			})
 			.catch((error) => {
 				console.log(error);

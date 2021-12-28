@@ -23,17 +23,29 @@ class UpdateOwnerSerializer(serializers.ModelSerializer):
 class PerishableSerializer(serializers.ModelSerializer):
     class Meta:
         model = Perishable
-        fields = ('id', 'username', 'title',
+        fields = ('id', 'username', 'p_code', 'title',
                   'img_url', 'qty', 'rtr_date', 'exp',)
 
 
 class CreatePerishableSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Owner
-        fields = ('title', 'exp',)
+        model = Perishable
+        fields = ('username', 'title', 'qty', 'exp',)
+
+
+class CreatePerishableTestSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Perishable
+        fields = ('title',)
 
 
 class UpdatePerishableSerializer(serializers.ModelSerializer):
     class Meta:
         model = Perishable
-        fields = ('code', 'qty', 'exp',)
+        fields = ('qty', 'exp',)
+
+
+class DeletePerishableSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Perishable
+        fields = ('p_code',)

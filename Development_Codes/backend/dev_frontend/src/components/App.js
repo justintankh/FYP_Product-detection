@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CreatePage from "./CreatePage";
 import HomePage from "./HomePage";
 import LoginPage from "./LoginPage";
+import Room from "./Room";
 
 export default class App extends Component {
 	constructor(props) {
@@ -22,6 +23,10 @@ export default class App extends Component {
 							element={<CreatePage />}
 						/>
 						<Route path="/frontend/login" element={<LoginPage />} />
+						<Route
+							path="/frontend/basket/:code"
+							element={<Room />}
+						/>
 					</Routes>
 				</Router>
 			</div>

@@ -20,7 +20,7 @@ export default class HomePage extends Component {
 						disableElevation
 						variant="contained"
 						color="primary">
-						<Button color="secondary" href="/frontend/create">
+						<Button color="secondary" href="/frontend/login">
 							Login
 						</Button>
 						<Button color="primary" href="/frontend/signup">
