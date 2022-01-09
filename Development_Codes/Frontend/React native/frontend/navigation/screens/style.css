@@ -1,0 +1,6 @@
+.app {
+    background-image: url('.assets/images/food_background.jpg');
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease-out;
+}
